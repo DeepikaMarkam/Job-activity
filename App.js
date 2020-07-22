@@ -12,6 +12,7 @@ import store from './redux/store';
 import Recommeded from './pages/Recommeded';
 import Saved from './pages/Saved';
 import Applied from './pages/Applied';
+//import Try from './pages/Try';
 
 // import NavBar from './components/NavBar';
 import './assets/vendor/nucleo/css/nucleo.css';
@@ -42,6 +43,7 @@ function App() {
           <Route path="/Recommeded" component={Recommeded}></Route>
           <Route path="/Saved" component={Saved}></Route>
           <Route path="/Applied" component={Applied}></Route>
+                   
           <Route path="/dashboard" component={Dashboard} exact></Route>
           <Route
             path="/homepage"
